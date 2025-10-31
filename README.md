@@ -29,7 +29,7 @@ sudo apt install -y ax25-tools ax25-apps bluetooth
 
 ```bash
 # Download the script
-curl -LO https://raw.githubusercontent.com/8ff/packet_stuff/main/btkiss.sh
+curl -LO https://raw.githubusercontent.com/8ff/btkiss/main/btkiss.sh
 
 # Make it executable
 chmod +x btkiss.sh
