@@ -39,8 +39,9 @@ chmod +x btkiss.sh
 
 ### First Time Setup
 
-1. **Enable pairing on your radio:**
+1. **Enable pairing and TNC on your radio:**
    - Menu → Pairing → Press OK
+   - Menu → General Settings → KISS TNC → Enable
 
 2. **Auto-connect:**
    ```bash
@@ -189,7 +190,7 @@ sudo ./btkiss.sh --auto-connect
 
 1. **Cleanup** - Removes cached Bluetooth device data
 2. **Scan** - Discovers compatible TNCs
-3. **Pair** - Trust then pair (order matters!)
+3. **Pair** - Trust then pair
 4. **Connect** - Establishes RFCOMM serial connection
 5. **Attach** - Creates AX.25 network interface with KISS
 
@@ -204,7 +205,6 @@ sudo ./btkiss.sh --auto-connect
 - RFCOMM for serial port emulation
 - KISS protocol for TNC communication
 - Creates AX.25 network interface (ax0, ax1, etc.)
-- Surgical process management (doesn't kill other TNCs)
 
 ## 73!
 
